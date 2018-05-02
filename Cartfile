@@ -1,0 +1,7 @@
+github "ReactiveX/RxSwift" ~> 4.0
+github "realm/realm-cocoa" 
+github "RxSwiftCommunity/RxAlamofire" "master"
+github "kean/RxNuke"
+github "kishikawakatsumi/KeychainAccess"
+github "Hearst-DD/ObjectMapper" ~> 3.1
+github "cookpad/Puree-Swift" ~> 3.0
