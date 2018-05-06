@@ -14,15 +14,17 @@
 		583E7A0420986B6200B584CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583E7A0220986B6200B584CC /* LaunchScreen.storyboard */; };
 		583E7A0F20986B6300B584CC /* MVVMStarterTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E7A0E20986B6300B584CC /* MVVMStarterTemplateTests.swift */; };
 		583E7A1A20986B6300B584CC /* MVVMStarterTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E7A1920986B6300B584CC /* MVVMStarterTemplateUITests.swift */; };
+		58406836209F3FFC009BE919 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58406834209F3FFC009BE919 /* HomeViewController.swift */; };
+		58406837209F3FFC009BE919 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58406835209F3FFC009BE919 /* HomeViewController.xib */; };
+		58406839209F4B62009BE919 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58406838209F4B62009BE919 /* SearchViewModel.swift */; };
+		5840683B209F4B9F009BE919 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840683A209F4B9F009BE919 /* SettingViewModel.swift */; };
 		58D01ACD2098BE6B008F9754 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D01ACC2098BE6B008F9754 /* UIViewController+Extensions.swift */; };
 		58D01AD120996664008F9754 /* AppWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D01AD020996664008F9754 /* AppWireframe.swift */; };
-		58D01AD520996B27008F9754 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D01AD320996B27008F9754 /* ArticlesViewController.swift */; };
-		58D01AD620996B27008F9754 /* ArticlesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D01AD420996B27008F9754 /* ArticlesViewController.xib */; };
 		58D01AD9209972C8008F9754 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D01AD7209972C8008F9754 /* SearchViewController.swift */; };
 		58D01ADA209972C8008F9754 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D01AD8209972C8008F9754 /* SearchViewController.xib */; };
 		58D01ADF20997328008F9754 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D01ADD20997328008F9754 /* SettingViewController.swift */; };
 		58D01AE020997328008F9754 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D01ADE20997328008F9754 /* SettingViewController.xib */; };
-		58D01AE3209980E0008F9754 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D01AE2209980E0008F9754 /* ArticlesViewModel.swift */; };
+		58D01AE3209980E0008F9754 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D01AE2209980E0008F9754 /* HomeViewModel.swift */; };
 		58D01AE72099B502008F9754 /* RxNuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D01A812098B821008F9754 /* RxNuke.framework */; };
 		58D01AE82099B502008F9754 /* RxAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D01A8E2098B822008F9754 /* RxAlamofire.framework */; };
 		58D01AE92099B502008F9754 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D01A9C2098B822008F9754 /* RealmSwift.framework */; };
@@ -68,6 +70,10 @@
 		583E7A1520986B6300B584CC /* MVVMStarterTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMStarterTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		583E7A1920986B6300B584CC /* MVVMStarterTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMStarterTemplateUITests.swift; sourceTree = "<group>"; };
 		583E7A1B20986B6300B584CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58406834209F3FFC009BE919 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		58406835209F3FFC009BE919 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		58406838209F4B62009BE919 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		5840683A209F4B9F009BE919 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		58D01A7D2098B821008F9754 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Carthage/Build/iOS/FirebaseNanoPB.framework; sourceTree = "<group>"; };
 		58D01A7E2098B821008F9754 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = Carthage/Build/iOS/Firebase.framework; sourceTree = "<group>"; };
 		58D01A7F2098B821008F9754 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
@@ -109,13 +115,11 @@
 		58D01AA32098B822008F9754 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Carthage/Build/iOS/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		58D01ACC2098BE6B008F9754 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		58D01AD020996664008F9754 /* AppWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWireframe.swift; sourceTree = "<group>"; };
-		58D01AD320996B27008F9754 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
-		58D01AD420996B27008F9754 /* ArticlesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticlesViewController.xib; sourceTree = "<group>"; };
 		58D01AD7209972C8008F9754 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		58D01AD8209972C8008F9754 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		58D01ADD20997328008F9754 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		58D01ADE20997328008F9754 /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
-		58D01AE2209980E0008F9754 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
+		58D01AE2209980E0008F9754 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		58D01AE42099A673008F9754 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS; path = Carthage/Build/iOS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -286,12 +290,12 @@
 		58D01AD220996ABF008F9754 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				58D01AD320996B27008F9754 /* ArticlesViewController.swift */,
-				58D01AD420996B27008F9754 /* ArticlesViewController.xib */,
 				58D01AD7209972C8008F9754 /* SearchViewController.swift */,
 				58D01AD8209972C8008F9754 /* SearchViewController.xib */,
 				58D01ADD20997328008F9754 /* SettingViewController.swift */,
 				58D01ADE20997328008F9754 /* SettingViewController.xib */,
+				58406834209F3FFC009BE919 /* HomeViewController.swift */,
+				58406835209F3FFC009BE919 /* HomeViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -299,7 +303,9 @@
 		58D01AE120997E9D008F9754 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				58D01AE2209980E0008F9754 /* ArticlesViewModel.swift */,
+				58D01AE2209980E0008F9754 /* HomeViewModel.swift */,
+				58406838209F4B62009BE919 /* SearchViewModel.swift */,
+				5840683A209F4B9F009BE919 /* SettingViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -414,9 +420,9 @@
 			files = (
 				583E7A0420986B6200B584CC /* LaunchScreen.storyboard in Resources */,
 				58D01AE020997328008F9754 /* SettingViewController.xib in Resources */,
-				58D01AD620996B27008F9754 /* ArticlesViewController.xib in Resources */,
 				583E7A0120986B6200B584CC /* Assets.xcassets in Resources */,
 				58D01ADA209972C8008F9754 /* SearchViewController.xib in Resources */,
+				58406837209F3FFC009BE919 /* HomeViewController.xib in Resources */,
 				583E79FF20986B6200B584CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,9 +481,11 @@
 				583E79FC20986B6200B584CC /* ViewController.swift in Sources */,
 				583E79FA20986B6200B584CC /* AppDelegate.swift in Sources */,
 				58D01ACD2098BE6B008F9754 /* UIViewController+Extensions.swift in Sources */,
-				58D01AE3209980E0008F9754 /* ArticlesViewModel.swift in Sources */,
+				5840683B209F4B9F009BE919 /* SettingViewModel.swift in Sources */,
+				58406836209F3FFC009BE919 /* HomeViewController.swift in Sources */,
+				58406839209F4B62009BE919 /* SearchViewModel.swift in Sources */,
+				58D01AE3209980E0008F9754 /* HomeViewModel.swift in Sources */,
 				58D01ADF20997328008F9754 /* SettingViewController.swift in Sources */,
-				58D01AD520996B27008F9754 /* ArticlesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

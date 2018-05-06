@@ -1,15 +1,15 @@
 //
-//  ArticlesViewController.swift
+//  HomeViewController.swift
 //  MVVMStarterTemplate
 //
-//  Created by taisuke.okada on 2018/05/02.
+//  Created by taisuke.okada on 2018/05/06.
 //  Copyright © 2018年 Oktasuke. All rights reserved.
 //
 
 import UIKit
 import RxSwift
 
-class ArticlesViewController: UIViewController {
+class HomeViewController: UIViewController {
     typealias Dependency = AppWireframe
     
     private let disposeBag = RxSwift.DisposeBag()
@@ -17,7 +17,7 @@ class ArticlesViewController: UIViewController {
     
     init(dependency: Dependency) {
         self.dependency = dependency
-        super.init(nibName: nil, bundle: nil)
+        super.init(nibName: "HomeViewController", bundle: nil)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -28,7 +28,7 @@ class ArticlesViewController: UIViewController {
         super.viewDidLoad()
         subscribe()
     }
-
+    
     private func subscribe() {
         rx.viewWillAppear
             .take(1)

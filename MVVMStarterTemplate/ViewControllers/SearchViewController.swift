@@ -17,7 +17,7 @@ class SearchViewController: UIViewController {
     
     init(dependency: Dependency) {
         self.dependency = dependency
-        super.init(nibName: nil, bundle: nil)
+        super.init(nibName: "SearchViewController", bundle: nil)
     }
     
     required init?(coder aDecoder: NSCoder) {

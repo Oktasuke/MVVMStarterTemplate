@@ -17,7 +17,7 @@ class SettingViewController: UIViewController {
     
     init(dependency: Dependency) {
         self.dependency = dependency
-        super.init(nibName: nil, bundle: nil)
+        super.init(nibName: "SettingViewController", bundle: nil)
     }
     
     required init?(coder aDecoder: NSCoder) {

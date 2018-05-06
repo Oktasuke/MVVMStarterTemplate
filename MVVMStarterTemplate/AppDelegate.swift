@@ -1,4 +1,4 @@
-//
+            //
 //  AppDelegate.swift
 //  MVVMStarterTemplate
 //
@@ -14,11 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let window = UIWindow()
+        self.window = window
         
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        let appWireFrame = AppWireframe.bootstrap(on: window)
-        appWireFrame.goToArticlesScreen()
-
+        let _ = AppWireframe.bootstrap(on: window)
         return true
     }
 
